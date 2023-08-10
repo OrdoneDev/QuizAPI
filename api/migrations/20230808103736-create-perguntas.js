@@ -12,6 +12,18 @@ module.exports = {
       pergunta: {
         type: Sequelize.STRING
       },
+      resposta_certa: {
+        type: Sequelize.STRING
+      },
+      banca: {
+        type: Sequelize.STRING
+      },
+      concurso: {
+        type: Sequelize.STRING
+      },
+      ano: {
+        type: Sequelize.DATE
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

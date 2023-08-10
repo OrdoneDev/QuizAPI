@@ -14,7 +14,11 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   perguntas.init({
-    pergunta: DataTypes.STRING(768)
+    pergunta: DataTypes.STRING(768),
+    resposta_certa: DataTypes.STRING(384),
+    banca: DataTypes.STRING(255),
+    concurso: DataTypes.STRING(255),
+    ano: DataTypes.DATE()
   }, {
     sequelize,
     modelName: 'perguntas',

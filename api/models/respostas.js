@@ -14,7 +14,15 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   respostas.init({
-    resposta: DataTypes.STRING(384)
+    data: {
+      type: DataTypes.TEXT,
+      get: function() {
+        return JSON.parse(this.getDataValue("respostas"));
+      },
+      set: function(value) {
+        return this.setDataValue("respostas", JSON.stringify(value));
+      }
+    }
   }, {
     sequelize,
     modelName: 'respostas',

@@ -16,7 +16,8 @@ module.exports = {
         type: Sequelize.BLOB
       },
       email: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique: true
       },
       senha: {
         type: Sequelize.STRING
