@@ -3,19 +3,16 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('temas', [
+    await queryInterface.bulkInsert('respostas', [
       {
-        titulo: 'Pedagogia',
+        id_pergunta: 1,
+        data: '{"respostas": ["2", "11", "1", "3"]}',
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        titulo: 'Matematica',
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-      {
-        titulo: 'Portugues',
+        id_pergunta: 2,
+        data: '{"respostas": ["2", "11", "1", "3"]}',
         createdAt: new Date(),
         updatedAt: new Date()
       }
@@ -23,6 +20,6 @@ module.exports = {
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.bulkDelete('temas', null, {});
+    await queryInterface.bulkDelete('respostas', null, {});
   }
 };

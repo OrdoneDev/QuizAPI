@@ -5,16 +5,14 @@ module.exports = {
   async up (queryInterface, Sequelize) {
     await queryInterface.bulkInsert('questionarios', [
       {
-        //TODO
-        //id_usuario: 1,
-        //id_pergunta: 1,
+        id_usuario: 1,
+        id_pergunta: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        //TODO
-        //id_usuario: 1,
-        //id_pergunta: 2,
+        id_usuario: 1,
+        id_pergunta: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       }

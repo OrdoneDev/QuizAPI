@@ -2,27 +2,20 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('perguntas', {
-      id_pergunta: {
+    await queryInterface.createTable('respostas', {
+      id_resposta: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      pergunta: {
-        type: Sequelize.STRING
+      id_pergunta: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: { model: 'perguntas', key: 'id_pergunta' }
       },
-      resposta_certa: {
-        type: Sequelize.STRING
-      },
-      banca: {
-        type: Sequelize.STRING
-      },
-      concurso: {
-        type: Sequelize.STRING
-      },
-      ano: {
-        type: Sequelize.DATE
+      data: {
+        type: Sequelize.JSON
       },
       createdAt: {
         allowNull: false,
@@ -35,6 +28,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('perguntas');
+    await queryInterface.dropTable('respostas');
   }
 };
