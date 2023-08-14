@@ -7,6 +7,7 @@ module.exports = {
       {
         id_pergunta: 1,
         id_tema: 3,
+        foto: null,
         pergunta: 'Quanto que é 1+1',
         resposta_certa: '2',
         banca: 'Escolinha professor Raimundos',
@@ -18,6 +19,7 @@ module.exports = {
       {
         id_pergunta: 2,
         id_tema: 3,
+        foto: null,
         pergunta: 'Quanto que é 1+2',
         resposta_certa: '3',
         banca: 'Escolinha professor Raimundos',

@@ -17,6 +17,9 @@ module.exports = {
       pergunta: {
         type: Sequelize.STRING
       },
+      foto: {
+        type: Sequelize.BLOB
+      },
       resposta_certa: {
         type: Sequelize.STRING
       },

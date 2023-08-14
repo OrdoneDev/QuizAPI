@@ -29,6 +29,7 @@ module.exports = (sequelize, DataTypes) => {
       primaryKey: true
     },
     pergunta: DataTypes.STRING(768),
+    foto: DataTypes.BLOB,
     resposta_certa: DataTypes.STRING(384),
     banca: DataTypes.STRING(255),
     concurso: DataTypes.STRING(255),
