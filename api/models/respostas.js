@@ -16,6 +16,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   respostas.init({
+    id_resposta: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true
+    },
     data: {
       type: DataTypes.TEXT,
       get: function() {

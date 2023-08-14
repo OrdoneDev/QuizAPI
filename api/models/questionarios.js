@@ -19,7 +19,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   questionarios.init({
-
+    id_questionario: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true
+    },
   }, {
     sequelize,
     modelName: 'questionarios',

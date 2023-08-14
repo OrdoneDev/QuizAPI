@@ -9,7 +9,7 @@ module.exports = {
         foto: null,
         email: 'david.ordone.dev@gmail.com',
         senha: '123',
-        autorizacao: 'developer',
+        autenticacao: 'developer',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -18,7 +18,7 @@ module.exports = {
         foto: null,
         email: 'anacdias1234@gmail.com',
         senha: '123',
-        autorizacao: 'revisora',
+        autenticacao: 'revisora',
         createdAt: new Date(),
         updatedAt: new Date()
       }

@@ -22,7 +22,7 @@ module.exports = {
       senha: {
         type: Sequelize.STRING
       },
-      autorizacao: {
+      autenticacao: {
         type: Sequelize.STRING
       },
       createdAt: {

@@ -16,6 +16,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   temas.init({
+    id_tema: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true
+    },
     titulo: DataTypes.STRING
   }, {
     sequelize,

@@ -22,6 +22,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   perguntas.init({
+    id_pergunta: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true
+    },
     pergunta: DataTypes.STRING(768),
     resposta_certa: DataTypes.STRING(384),
     banca: DataTypes.STRING(255),

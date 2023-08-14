@@ -12,13 +12,13 @@ module.exports = {
       },
       {
         id_tema: 2,
-        titulo: 'Matematica',
+        titulo: 'Portugues',
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         id_tema: 3,
-        titulo: 'Portugues',
+        titulo: 'Matematica',
         createdAt: new Date(),
         updatedAt: new Date()
       }
