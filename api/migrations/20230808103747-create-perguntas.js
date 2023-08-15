@@ -29,6 +29,9 @@ module.exports = {
       concurso: {
         type: Sequelize.STRING
       },
+      orgao: {
+        type: Sequelize.STRING
+      },
       ano: {
         type: Sequelize.DATE
       },

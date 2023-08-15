@@ -10,8 +10,9 @@ module.exports = {
         foto: null,
         pergunta: 'Quanto que é 1+1',
         resposta_certa: '2',
-        banca: 'Escolinha professor Raimundos',
-        concurso: 'Campinas',
+        banca: 'Inova Brasil',
+        concurso: 'Professor de Nivel Superior',
+        orgao: 'Prefeitura de Elias Fausto',
         ano: new Date(),
         createdAt: new Date(),
         updatedAt: new Date()
@@ -22,8 +23,9 @@ module.exports = {
         foto: null,
         pergunta: 'Quanto que é 1+2',
         resposta_certa: '3',
-        banca: 'Escolinha professor Raimundos',
-        concurso: 'Campinas',
+        banca: 'Inova Brasil',
+        concurso: 'Professor de Nivel Superior',
+        orgao: 'Prefeitura de Elias Fausto',
         ano: new Date(),
         createdAt: new Date(),
         updatedAt: new Date()
