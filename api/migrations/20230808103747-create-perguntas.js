@@ -32,6 +32,9 @@ module.exports = {
       orgao: {
         type: Sequelize.STRING
       },
+      dificuldade: {
+        type: Sequelize.TINYINT
+      },
       ano: {
         type: Sequelize.DATE
       },

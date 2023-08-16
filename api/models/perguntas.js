@@ -34,6 +34,7 @@ module.exports = (sequelize, DataTypes) => {
     banca: DataTypes.STRING(255),
     concurso: DataTypes.STRING(255),
     orgao: DataTypes.STRING(255),
+    dificuldade: DataTypes.FLOAT(2,2),
     ano: DataTypes.DATE()
   }, {
     sequelize,

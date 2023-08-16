@@ -13,6 +13,7 @@ module.exports = {
         banca: 'Inova Brasil',
         concurso: 'Professor de Nivel Superior',
         orgao: 'Prefeitura de Elias Fausto',
+        dificuldade: 1.0,
         ano: new Date(),
         createdAt: new Date(),
         updatedAt: new Date()
@@ -26,6 +27,7 @@ module.exports = {
         banca: 'Inova Brasil',
         concurso: 'Professor de Nivel Superior',
         orgao: 'Prefeitura de Elias Fausto',
+        dificuldade: 1.0,
         ano: new Date(),
         createdAt: new Date(),
         updatedAt: new Date()
