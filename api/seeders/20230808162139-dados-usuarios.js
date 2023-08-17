@@ -10,6 +10,7 @@ module.exports = {
         email: 'david.ordone.dev@gmail.com',
         senha: '123',
         autenticacao: 'developer',
+        simulados_realizados: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -19,6 +20,7 @@ module.exports = {
         email: 'anacdias1234@gmail.com',
         senha: '123',
         autenticacao: 'revisora',
+        simulados_realizados: 0,
         createdAt: new Date(),
         updatedAt: new Date()
       }

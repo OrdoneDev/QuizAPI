@@ -25,6 +25,9 @@ module.exports = {
       autenticacao: {
         type: Sequelize.STRING
       },
+      simulados_realizados: {
+        type: Sequelize.INTEGER
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

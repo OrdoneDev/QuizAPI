@@ -7,12 +7,14 @@ module.exports = {
       {
         id_usuario: 1,
         id_pergunta: 1,
+        numero_simulado: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         id_usuario: 1,
         id_pergunta: 2,
+        numero_simulado: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       }

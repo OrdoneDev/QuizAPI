@@ -19,6 +19,10 @@ module.exports = {
         type: Sequelize.INTEGER,
         references: { model: 'perguntas', key: 'id_pergunta' }
       },
+      numero_simulado: {
+        allowNull: false,
+        type: Sequelize.INTEGER
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
